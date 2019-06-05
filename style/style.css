@@ -1,0 +1,198 @@
+
+
+@charset "utf-8";
+
+@font-face {
+    font-family: robotoslab-light;
+    src: url(RobotoSlab-Light.ttf);
+}
+header {
+width: 60%; 
+margin-left: 20%;
+font-family: robotoslab-light;
+color: #2C3539;
+}
+
+.asterisk{
+    color: red;
+}
+
+.Address{
+    margin-left: 80%;
+}
+
+.headborder{
+    margin: 25px 0;
+    height: 15px;
+    background: linear-gradient(to right, #0064a6 0, white 100%);
+}
+
+main {
+width: 60%; 
+margin-left: 20%;
+font-size: 14pt;
+font-family: robotoslab-light;
+color: #2C3539;
+
+}
+
+.leftsection{
+    float: left;
+    width: 49%;
+}
+
+.rightsection{
+    float: right;
+    width: 49%;
+}
+
+.addconditions{
+    width: 80%;
+    resize: none;
+    border-radius: 5px;
+    font-size: 12pt;
+    background-color: whitesmoke;
+    margin-left: 5%;
+}
+
+.smallfont{
+    font-size: 10pt;
+}
+
+input{
+    border-radius: 5px;
+    font-size: 12pt;
+    background-color: whitesmoke;
+}
+.textbox1{
+    width: 58%;
+}
+
+.fname{
+    width: 62%;
+}
+
+.lname{
+    width: 62%;
+}
+
+.email{
+    width: 60%;
+}
+
+.memberid{
+    width:20.5%;
+}
+
+.binnum{
+    width: 20%;
+}
+
+.groupnum{
+    width: 20%;
+}
+.address{
+    width: 76%;
+}
+.city{
+    width: 23%
+}
+.state{
+    width: 10%;
+}
+.zip{
+    width: 10%;
+}
+.patientname{
+    Width: 60%;
+}
+thead{
+    margin-left: 100%;
+}
+.additionalmeds{
+    width: 80%;
+    resize: none;
+    border-radius: 5px;
+    font-size: 12pt;
+    background-color: whitesmoke;
+    margin-left: 10%;
+
+}
+
+.currentmeds{
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    font-size: 12pt;
+    background-color: whitesmoke;
+}
+
+.squareRadio{
+    -webkit-appearance: checkbox;
+}
+
+.alegName{
+    width: 85%;
+}
+
+#container{
+    width: 100%;
+}
+
+.submit{
+    padding: 1px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    background-color: silver;
+    color: #2C3539;
+    border-width: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 5px #666; 
+    width: 150px;
+    float: right;
+}
+
+.submit:hover {
+    background-color: grey;
+}
+
+.submit:active{
+    background-color: #898b8c;
+    box-shadow:5px 5px #666;
+    transform: translateY(4px);
+}
+
+.cardpic:hover{
+  
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(3);
+  -ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Safari and Chrome */
+}
+
+.divborder{
+    margin: 25px 0;
+    height: 3px;
+    background: linear-gradient(to right, #0064a6 0, white 100%);
+}
+
+footer {
+width: 60%; 
+margin-left: 20%;
+font-family: robotoslab-light;
+color: #2C3539;
+
+}
+
+.footborder{
+    margin: 25px 0;
+    height: 15px;
+    background: linear-gradient(to right, #0064a6 0, white 100%);
+}
+
